@@ -1,0 +1,74 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Raleway:wght@400;600&display=swap');
+
+* {
+    font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
+    background: rgb(209, 209, 209);
+}
+
+h2 {
+    color: black;
+    font-size: 3rem;
+    margin: 0;
+    align-items: center;
+    padding: 1rem;
+}
+
+h3 {
+font-weight: 400;
+padding: 1.5rem;
+font-size: 1.5rem;
+}
+
+nav {
+    margin: 30px 1200px
+}
+
+.home-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    background-color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.home-button:hover {
+    background-color: grey;
+}
+
+.photo {
+    display: flex;
+    background-color: white;
+}
+.photo img {
+    width: 100%;
+    height: auto;
+  }
+
+  .gallery {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+  }
+
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  /* FOOTER STYLING */
+
+.footer p {
+    margin: 0;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px;
+    position: sticky;
+    margin-bottom: 0;
+}
